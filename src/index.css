@@ -20,6 +20,10 @@ p, h1, div {
   font-family: 'MyFont', sans-serif;
 }
 
+html, body {
+  overflow-x: hidden
+}
+
 .text-gold {
   @apply bg-clip-text text-transparent bg-linear-to-br from-yellow-500/50 via-amber-200 to-yellow-500/20
 }

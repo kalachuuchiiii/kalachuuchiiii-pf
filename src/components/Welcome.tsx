@@ -4,8 +4,8 @@ import planet from '/greenplanet.png';
 
 export const Welcome = () => {
   return (
-    <div className="w-full h-screen  text-zinc-100 flex flex-col  items-center justify-center ">
-      <div className="w-full h-full flex flex-col justify-start">
+    <div className=" h-screen w-screen overflow-hidden text-zinc-100 flex flex-col  items-center justify-center ">
+      <div className="w-full h-full overflow-hidden flex flex-col justify-start">
         <img className="max-w-4xl absolute right-0  -z-10 translate-x-60 translate-y-80 bottom-0" src={planet} />
         <motion.p
           className="max-w-xl pt-30 unbounded-text text-center text-zinc-400 text-4xl"

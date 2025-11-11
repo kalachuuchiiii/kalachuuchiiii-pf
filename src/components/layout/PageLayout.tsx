@@ -7,7 +7,7 @@ export const PageLayout = () => {
     return (
       <>
         {PageBlocks.map((el) => (
-          <div className="min-h-screen overflow-x-hidden w-full outline-b ">{el}</div>
+          <div className="min-h-screen overflow-x-hidden w-screen  outline-b ">{el}</div>
         ))}
       </>
     );

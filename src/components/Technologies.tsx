@@ -35,7 +35,7 @@ export const Technologies = () => {
     { name: "Next.js", icon: <SiNextdotjs className="size-40" style={{ color: "#000000" }} /> },
   ];
   return (
-    <div className="w-full h-screen overflow-hidden py-20 bg-white">
+    <div className="w-screen h-screen overflow-hidden py-20 bg-white">
   
       <motion.div
         className="flex"
