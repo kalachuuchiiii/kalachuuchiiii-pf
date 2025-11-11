@@ -1,11 +1,12 @@
 
+import { SquareArrowOutUpRightIcon } from "lucide-react";
 import { FaGithub, FaFacebook } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
 
 const Contacts = () => {
   return (
     <div className="w-full min-h-screen bg-white  text-zinc-950 flex flex-col items-center justify-center px-8 py-20 space-y-10">
-      <h1 className="text-4xl font-bold mb-6 text-emerald-700">Contact Me</h1>
+      <h1 className="text-4xl font-bold mb-6 text-emerald-700">Get in touch <SquareArrowOutUpRightIcon /> </h1>
 
       <div className="flex flex-col md:flex-row md:space-x-16 space-y-6 md:space-y-0 items-start">
         {/* GitHub */}
@@ -16,6 +17,7 @@ const Contacts = () => {
           className="flex items-center space-x-3 hover:text-emerald-400 transition-colors"
         >
           <FaGithub size={30} />
+          <p>Kalachuuchiiii</p>
 l        </a>
 
         {/* Email */}
