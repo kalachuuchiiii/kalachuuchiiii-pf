@@ -22,6 +22,7 @@ export const Welcome = () => {
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.5 }}
         >
           I'm a Full Stack Web Developer<span className="animate-pulse">_</span>
+          <p className="indie-flower text-lg tracking-normal">I love coding</p>
         </motion.h1>
       </div>
     </div>
