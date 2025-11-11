@@ -1,24 +1,38 @@
 import { motion } from "framer-motion";
-import StackIcon from "tech-stack-icons";
-
+import {
+  SiTypescript,
+  SiReact,
+  SiJavascript,
+  SiSupabase,
+  SiRedux,
+  SiMongodb,
+  SiExpress,
+  SiNodedotjs,
+  SiHtml5,
+  SiCss3,
+  SiTailwindcss,
+  SiVite,
+  SiVercel,
+  SiNextdotjs,
+} from "react-icons/si";
 
 export const Technologies = () => {
     
   const tech = [
-    { name: "TypeScript", icon: <StackIcon className="size-40" name="typescript" /> },
-    { name: "React", icon: <StackIcon className="size-40" name="react" /> },
-    { name: "JavaScript", icon: <StackIcon className="size-40" name="js" /> },
-    { name: "Supabase", icon: <StackIcon name="supabase" className="size-40" /> },
-    { name: "Redux", icon: <StackIcon name="redux" className="size-40" /> },
-    { name: "MongoDB", icon: <StackIcon name="mongodb" className="size-40" /> },
-    { name: "Express.js", icon: <StackIcon name="expressjs" className="size-40" /> },
-    { name: "Node.js", icon: <StackIcon name="nodejs" className="size-40" /> },
-    { name: "HTML5", icon: <StackIcon name="html5" className="size-40" /> },
-    { name: "CSS3", icon: <StackIcon name="css3" className="size-40" /> },
-    { name: "TailwindCSS", icon: <StackIcon name="tailwindcss" className="size-40" /> },
-    { name: "Vite", icon: <StackIcon name="vitejs" className="size-40" /> },
-    { name: "Vercel", icon: <StackIcon name="vercel" className="size-40" /> },
-    { name: "Next.js", icon: <StackIcon name="nextjs" className="size-40" /> },
+    { name: "TypeScript", icon: <SiTypescript className="size-40" style={{ color: "#3178C6" }} /> },
+    { name: "React", icon: <SiReact className="size-40" style={{ color: "#61DAFB" }} /> },
+    { name: "JavaScript", icon: <SiJavascript className="size-40" style={{ color: "#F7DF1E" }} /> },
+    { name: "Supabase", icon: <SiSupabase className="size-40" style={{ color: "#3ECF8E" }} /> },
+    { name: "Redux", icon: <SiRedux className="size-40" style={{ color: "#764ABC" }} /> },
+    { name: "MongoDB", icon: <SiMongodb className="size-40" style={{ color: "#13AA52" }} /> },
+    { name: "Express.js", icon: <SiExpress className="size-40" style={{ color: "#000000" }} /> },
+    { name: "Node.js", icon: <SiNodedotjs className="size-40" style={{ color: "#339933" }} /> },
+    { name: "HTML5", icon: <SiHtml5 className="size-40" style={{ color: "#E34C26" }} /> },
+    { name: "CSS3", icon: <SiCss3 className="size-40" style={{ color: "#1572B6" }} /> },
+    { name: "TailwindCSS", icon: <SiTailwindcss className="size-40" style={{ color: "#06B6D4" }} /> },
+    { name: "Vite", icon: <SiVite className="size-40" style={{ color: "#646CFF" }} /> },
+    { name: "Vercel", icon: <SiVercel className="size-40" style={{ color: "#000000" }} /> },
+    { name: "Next.js", icon: <SiNextdotjs className="size-40" style={{ color: "#000000" }} /> },
   ];
   return (
     <div className="w-full h-screen overflow-hidden py-20 bg-white">
