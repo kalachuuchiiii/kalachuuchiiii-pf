@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaGithub, FaFacebook } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
 
@@ -16,8 +16,7 @@ const Contacts = () => {
           className="flex items-center space-x-3 hover:text-emerald-400 transition-colors"
         >
           <FaGithub size={30} />
-          <span className="text-lg">kalachuuchiiii</span>
-        </a>
+l        </a>
 
         {/* Email */}
         <a
