@@ -24,6 +24,19 @@ p, h1, div {
   @apply bg-clip-text text-transparent bg-linear-to-br from-yellow-500/50 via-amber-200 to-yellow-500/20
 }
 
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+
 .libre-baskerville-regular {
   font-family: "Libre Baskerville", serif;
   font-weight: 200;
